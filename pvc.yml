@@ -5,7 +5,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: httpd-data-pvc1
   labels:
-    env: production
+    env: productions
 spec:
   accessModes:
    - ReadWriteMany
@@ -19,7 +19,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: httpd-logs-pvc1
   labels:
-    env: production
+    env: productions
 spec:
   accessModes:
    - ReadWriteMany
