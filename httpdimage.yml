@@ -32,9 +32,9 @@ spec:
       volumes:
       - name: httpd-data-pvc
         persistentVolumeClaim:
-          claimName: web-data-pvc
+          claimName: httpd-data-pvc1
 
       volumes:
       - name: httpd-logs-pvc
         persistentVolumeClaim:
-          claimName: web-log-pvc
+          claimName: httpd-logs-pvc1
